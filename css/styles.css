@@ -1,0 +1,75 @@
+body {
+	font-family : "Open Sans", sans serif;
+	color :#636363;
+	text-align : center;
+	background-color:#f4f4f4;
+}
+
+h3 {
+text-transform : uppercase;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+font-weight :600;
+}
+
+a {
+text-decoration : none;	
+color : #4b4b4b;
+text-transform : uppercase;
+font-weight:700;
+}
+
+ul{
+padding-left:0px
+}
+
+li {
+background-color:white;
+display: block;
+margin-bottom: 5px;
+padding-top :10px;
+padding-bottom :10px;
+}
+.nav{
+text-align:center;
+}
+
+#profile-photo{
+width:85%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.intro {
+margin-bottom :10px;
+}
+
+.portfolio {
+margin-top:40px;
+background-color:white;	
+padding-bottom:50px;
+}
+
+.portfolio-photo {
+width: 90%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.final-words{
+display:block;
+float:left;
+margin-top:10px;
+margin-bottom:0px
+padding-bottom:25px;
+font-weight:700;
+}
+
+a.final-words{
+	float:right;
+}
