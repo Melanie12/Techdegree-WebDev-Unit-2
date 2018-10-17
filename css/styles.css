@@ -73,3 +73,62 @@ font-weight:700;
 a.final-words{
 	float:right;
 }
+
+
+/*Media Queries------------------------------------ */
+@media (min-width:768px) {
+
+li{
+display:inline;
+padding-left:40px;
+background-color:#f4f4f4;
+}	
+
+.nav {
+margin-bottom:55px;
+}
+
+#profile-photo{
+display:block;
+float:right;
+width:50%;
+}
+	
+.introduction {
+display:block;
+float:left;
+width:50%;
+text-align: left;
+}
+
+.portfolio {
+clear:both;
+overflow:auto;
+}
+
+.primary-col {
+display:inline-block;
+width:50%;
+float : left;
+}
+.secondary-col {
+display:inline-block;
+width:50%;
+float : right;
+}
+
+footer{
+clear:both;
+}
+footer p {
+padding-left:80px;
+padding-right:80px;
+}
+
+.final-words a{
+display:hidden;
+}
+}
+
+
+
