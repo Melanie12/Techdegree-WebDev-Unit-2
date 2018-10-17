@@ -98,6 +98,7 @@ margin-bottom:55px;
 display:block;
 float:right;
 width:50%;
+margin-bottom:40px;
 }
 	
 .introduction {
@@ -155,7 +156,10 @@ visibility:visible;
 
 /*Media Queries Desktop------------------------------------ */
 @media (min-width:768px) {
+
+.name	
 	
+
 }
 
 
