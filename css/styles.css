@@ -154,6 +154,8 @@ visibility:visible;
 }
 
 /*Media Queries Desktop------------------------------------ */
-
+@media (min-width:768px) {
+	
+}
 
 
