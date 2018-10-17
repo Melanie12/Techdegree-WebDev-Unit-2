@@ -65,18 +65,24 @@ margin-right:auto;
 display:block;
 float:left;
 margin-top:10px;
-margin-bottom:0px
+margin-bottom:0px;
 padding-bottom:25px;
 font-weight:700;
 }
 
 a.final-words{
-	float:right;
+float:right;
+}
+a.tablet {
+visibility:hidden;
 }
 
-
-/*Media Queries------------------------------------ */
+/*Media Queries Tablet------------------------------------ */
 @media (min-width:768px) {
+.intro {
+overflow:auto
+}
+
 
 li{
 display:inline;
@@ -120,15 +126,34 @@ float : right;
 footer{
 clear:both;
 }
+
 footer p {
 padding-left:80px;
 padding-right:80px;
 }
 
-.final-words a{
-display:hidden;
+p.final-words {
+padding-left:35px;
 }
+
+a.final-words {
+display:inline;
+float:left;
+margin-left: 40px;
+padding-right:7px;
 }
+
+a.tablet {
+visibility:visible;
+}
+
+.mobile {
+	visibility:hidden;
+}
+
+}
+
+/*Media Queries Desktop------------------------------------ */
 
 
 
