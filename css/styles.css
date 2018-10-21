@@ -47,7 +47,7 @@ margin-left:auto;
 margin-right:auto;
 }
 
-.intro {
+#intro {
 color :#636363;
 margin-bottom :10px;
 }
@@ -118,7 +118,7 @@ margin-bottom :50px;
 
 /*Media Queries Tablet------------------------------------ */
 @media (min-width:768px) {
-.intro {
+#intro {
 overflow:auto;
 padding-left:20px;
 padding-right:20Px;
@@ -211,7 +211,7 @@ visibility:hidden;
 /*Media Queries Desktop------------------------------------ */
 @media (min-width:1024px) {
 
-.intro {
+#intro {
 	padding-left:30px;
 	padding-right:35px;
 }
